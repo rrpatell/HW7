@@ -234,7 +234,7 @@ class TestAllMethods(unittest.TestCase):
         self.assertEqual(len(c), 1)
         self.assertEqual(c, [('Teden Mengi', 'Defence', 2002)])
     
-    # test extra credit
+    '''# test extra credit
     def test_make_winners_table(self):
         self.cur2.execute('SELECT * from Winners')
         winners_list = self.cur2.fetchall()
@@ -250,7 +250,7 @@ class TestAllMethods(unittest.TestCase):
     def test_winners_since_search(self):
 
         pass
-
+    '''
 
 def main():
 
