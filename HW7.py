@@ -183,7 +183,6 @@ def make_seasons_table(data, cur, conn):
 def winners_since_search(year, cur, conn):
     pass
 
-
 class TestAllMethods(unittest.TestCase):
     def setUp(self):
         path = os.path.dirname(os.path.abspath(__file__))
